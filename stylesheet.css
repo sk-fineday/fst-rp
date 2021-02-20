@@ -1,0 +1,123 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+/*----------------------------------------------------------------------------*/
+.header {
+    height: 90px;
+    background-color: #26d0c9;
+    color: #fff
+}
+
+.header div {
+    font-size: 36px;
+    padding: 20px 40px;
+    float: left;
+}
+
+.header li {
+    padding: 33px 20px;
+    float: left;
+}
+/*----------------------------------------------------------------------------*/
+.main {
+    padding: 0 80px;
+    margin-bottom: 100px;
+}
+/*----------------------------------------------------------------------------*/
+.message {
+    padding: 100px 0;
+}
+
+.message h1 {
+    font-size: 140px;
+}
+
+.message span {
+    color :#ff4a4a;
+}
+
+.message h2 {
+    font-size: 60px;
+}
+
+/*----------------------------------------------------------------------------*/
+.lesson-container {
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.lesson-container h3 {
+    font-size: 28px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dee7ec;
+}
+
+.lessons {
+    float: left;
+}
+
+.lesson-icon {
+    margin: 50px 40px 30px 0;
+}
+
+.lesson-name {
+    font-size: 24px;
+}
+
+/*----------------------------------------------------------------------------*/
+.contact-container h3 {
+ font-size :28px;
+ border-bottom: 2px solid #dee7ec;
+ margin-bottom: 50px;
+}
+
+.contact-block p {
+    margin-bottom: 10px;
+}
+
+.contact-block input, textarea {
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #dee7ec;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    color: #889eab;
+}
+
+/*----------------------------------------------------------------------------*/
+.footer {
+    padding: 40px;
+    height: 120px; 
+    background-color: #2f5167;
+}
+
+.footer div {
+    font-size: 32px;
+    color: white;
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    margin-bottom: 20px;
+    color: white;
+}
